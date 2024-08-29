@@ -1,0 +1,50 @@
+.btn_cont{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    height: 8%;
+  
+    padding: 5px;
+}
+.btn{
+    width: 45%;
+    border-radius: 5px;
+    transition: all 0.16s linear;
+}
+.purchase:hover{
+    background-color: rgb(8, 169, 8);
+    border: 1px solid  rgb(8, 169, 8);
+    color:white;
+    transform: scale(1.05);
+}
+.remove:hover{
+    background-color: rgb(252, 25, 25);
+    border: 1px solid rgb(252, 25, 25);
+    color: white;
+    transform: scale(1.05);
+
+}
+.purchase{
+    border: 2px solid rgb(39, 39, 255) ;
+    background: rgb(39, 39, 255);
+    color: white;
+}
+.remove{
+    border: 2px solid  rgb(235, 77, 19);
+    background: rgb(235, 77, 19);
+    color:white;
+    
+}
+.price_cont{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    margin-top: 0.5em;
+}
+.image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}

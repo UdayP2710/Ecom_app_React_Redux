@@ -1,0 +1,62 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+    height: 10vh;
+    background: linear-gradient(135deg, rgba(36,1,60,1) 41%, rgba(195, 5, 5, 0.964) 86%, rgba(214,149,58,0.9613095238095238) 96%);
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    
+}
+
+.logo{
+    margin-left: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo h1{
+    cursor: pointer;
+    color: white;
+    transition: all 0.16s linear;
+
+}
+.logo h1:hover{
+    color: rgb(255, 255, 0);
+    transform: scale(1.1);
+}
+.navigation_cont{
+    display: flex;
+    align-items: center;
+    padding: 1.2em;
+    justify-content: space-around;
+    width: 30%;
+}
+.login_navcont{
+    display: flex;
+    align-items: center;
+    padding: 1.4em;
+    justify-content: space-between;
+    width: 45%;
+}
+.image{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.image img{
+    width: 3em;
+    height: 3em;
+}
+.image h2{
+    transition: all 0.16s linear;
+}
+.image h2:hover{
+    color: white;
+    transform: scale(1.08);
+}
+.nounderline {
+    text-decoration: none;
+    color: inherit; 
+}

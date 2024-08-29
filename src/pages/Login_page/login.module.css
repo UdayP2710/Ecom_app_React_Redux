@@ -1,0 +1,53 @@
+.outer_cont{
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+   justify-content: center;
+   flex-direction: column;
+}
+.login_cont{
+    padding: 2em;
+    margin-bottom:2em ;
+    background-color: rgb(254, 254, 254);
+    border: 3px solid rgb(176, 176, 176);
+    border-radius: 10px;
+    width: 26vw;
+    height: 45vh;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+    transition: all 0.3s ease-in-out;
+}
+.login_cont:hover{
+    background: linear-gradient(135deg, rgb(159, 156, 249) 28%, rgba(31, 38, 86, 0.964) 100%, rgba(214,149,58,0.9613095238095238) 100%);
+    transform: scale(1.1);
+}
+.input_cont{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+input{
+    padding: 0.6em;
+    margin: 1em;
+    border-radius: 10px;
+    width: 90%;
+
+
+}
+
+
+.btn_cont button{
+    padding: 0.6em;
+    width: 7em;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.12s linear;
+}
+.btn_cont :hover{
+    background-color: red;
+    color: white;
+    border: 2px solid red;
+}
